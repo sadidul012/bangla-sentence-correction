@@ -1,0 +1,34 @@
+{
+  "vocabulary_size": 40000,
+  "report_point": 10000,
+  "max_count": 20000,
+  "min_count": 3,
+  "max_line_read": 250000,
+
+  "batch_size": 512,
+  "input_embedding_size": 20,
+  "encoder_hidden_units": 128,
+  "n_epoch": 16,
+  "n_predicts": 1,
+  "batch_in_epoch": 4000,
+  "validation_batch": 200,
+  "test_batch":40,
+  "validation_point": 2,
+
+  "model_save": "model/model.ckpt",
+  "model": "model/model.ckpt-15",
+  "save_dir": "data/vector/",
+  "data_dir": "data/",
+  "file_name": "linesb.txt",
+
+  "dataset_path": "data/processed/",
+  "test_set": 10,
+  "dev_set": 5,
+
+  "max_length": 10,
+  "min_length": 2,
+  "max_perturbation": 1,
+  "min_repetition": 2,
+  "max_missing": 1,
+  "max_repetition": 3
+}
