@@ -29,6 +29,3 @@
 
     If you want to interfere with the model by inputing invalid sentence, and want to see the corrected sentence. Then,
     Run the interference.py
-    
-    
-[Website](http://brl.uiu.ac.bd/s2s/index.php)
